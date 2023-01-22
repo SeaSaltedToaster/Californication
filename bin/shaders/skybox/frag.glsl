@@ -20,9 +20,9 @@ void main(void){
 	float pi = 3.141592653589793;
 
 	//Day Time
-	vec4 c1 = vec4(1.0, 1.0, 1.0, 0.0); //Top Color
-	vec4 c2 = vec4(1.0, 1.0, 1.0, 0.5); //Horizon Color
-	vec4 c3 = vec4(0.0, 0.7, 1.0, 0.0); //Bottom Color
+	vec4 c1 = vec4(0.0, 0.0, 0.0, 0.0); //Top Color
+	vec4 c2 = vec4(0.0, 0.0, 1.0, 0.25); //Horizon Color
+	vec4 c3 = vec4(0.0, 0.8, 1.0, 1.0); //Bottom Color
 
 	//Night Time
 	vec4 nightColor = vec4(0.0f); //Top Color

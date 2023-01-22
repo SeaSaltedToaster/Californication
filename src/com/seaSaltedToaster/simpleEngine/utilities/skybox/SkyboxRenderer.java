@@ -19,7 +19,7 @@ public class SkyboxRenderer extends Renderer {
 	
 	public SkyboxRenderer(Engine engine) {
 		super(new SkyboxShader(), engine);
-		this.skybox = engine.getObjLoader().loadObjModel("models/skybox");
+		this.skybox = engine.getObjLoader().loadObjModel("skybox");
 		this.timing = new TimeHandler();
 		
 		this.transform = new Transform();

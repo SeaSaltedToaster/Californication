@@ -57,7 +57,7 @@ public class TextureLoader {
 	
 	private Texture getTextureData(String fileName, boolean isStream) {
 		Texture texture = new Texture(0);
-		
+		System.out.println("Loading " + fileName);
 		BufferedImage bi = null;
 		BufferedInputStream stream = null;
 		if(isStream)
